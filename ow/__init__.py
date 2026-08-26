@@ -1,16 +1,16 @@
-__author__ = 'thorwhalen'
+__author__ = 'tcw'
 """
 functions that work on soup, soup tags, etc.
 """
 
 import bs4
 
-from ut.pgenerator.get import last_element
+from utcw.pgenerator.get import last_element
 from tempfile import mkdtemp
 import os
-import ut.pstr.to as strto
-import ut.parse.util as parse_util
-import ut.pstr.trans as pstr_trans
+import utcw.pstr.to as strto
+import utcw.parse.util as parse_util
+import utcw.pstr.trans as pstr_trans
 
 
 def root_parent(s):
