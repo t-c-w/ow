@@ -23,7 +23,7 @@ classifiers = [
 ]
 dependencies = [
     "beautifulsoup4",
-    "utcw",
+    "utcw>=0.0.3",
 ]
 
 [project.urls]
